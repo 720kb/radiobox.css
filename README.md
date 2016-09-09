@@ -7,9 +7,9 @@ A tiny set of CSS3 animations designed for your radio inputs.
 
 </p>
 <p align="center">
-	<span style="font-size:12px;">
+	<sub style="font-size:12px;">
 	... and for checkbox inputs check out <a style="font-size:12px;" href="https://github.com/720kb/checkbox.css">checkbox.css</a>
-	</span>
+	</sub>
 </p>
 </br>
 <p align="center" style="text-align:center">
