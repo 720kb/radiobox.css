@@ -1,9 +1,11 @@
+
 body {
 min-height:100%;
 height:100vh;
 background: url('bg.png') no-repeat;
 background-size:100%;
 background-position: bottom center;
+-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 small, small * {
   font-size:11.5px;
