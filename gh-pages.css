@@ -1,0 +1,52 @@
+body {
+min-height:100%;
+height:100vh;
+background: url('bg.png') no-repeat;
+background-size:100%;
+background-position: bottom center;
+}
+small, small * {
+  font-size:11.5px;
+}
+.slogan{
+  font-size: 13px;
+  color: rgba(0,0,0, .3);
+}
+.example{
+  float:none;
+  width:90%;
+  max-width: 450px;
+  margin:0 auto;
+  display: inline-block;
+  box-shadow: 0 3px 30px rgba(0,0,0, .2);
+  border-radius: 10px ;
+}
+pre {
+  color:white;
+  max-width: 300px;
+  float: none;
+  border-radius:2px;
+
+  padding: 5px 0;
+  box-shadow: 0 1px 1px rgba(0,0,0, .1) inset;
+  text-align: center;
+}
+.bg-red{
+  background-color: #ff0011;
+}
+.color-red{
+  color: #ff0011;
+}
+input[type="radio"]{
+  margin-right:3px;
+  margin-left:-3px;
+  position: relative;
+}
+label {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+
+}
