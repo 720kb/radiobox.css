@@ -1,0 +1,24 @@
+
+@keyframes boom {
+
+  0% {
+
+    opacity: .2;
+    transform: scale(2);
+  }
+  90% {
+    opacity: .01;
+    transform: scale(6);
+  }
+
+  100% {
+    transform: none;
+  }
+}
+
+.radiobox-boom {
+  &:checked {
+    animation: boom .2s ease-in;
+    animation-iteration-count: 1;
+  }
+}

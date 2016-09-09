@@ -1,0 +1,34 @@
+
+@keyframes scatman {
+
+  0% {
+
+    transform: translateX(-20px);
+  }
+
+  20% {
+
+    transform: translateX(-2px);
+  }
+  40% {
+
+
+    transform: translateX(-1px);
+  }
+  60% {
+
+
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: none;
+  }
+}
+
+.radiobox-scatman {
+  &:checked {
+    animation: scatman .3s ease-in-out;
+    animation-iteration-count: 2;
+  }
+}

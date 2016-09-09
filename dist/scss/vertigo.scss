@@ -1,0 +1,32 @@
+@keyframes vertigo {
+
+  0% {
+
+    transform: scale(1) rotate(50deg);
+  }
+
+  30% {
+
+    transform:  scale(.5) skewX(45deg) translateY(3px) translateX(-3px);
+  }
+
+  60% {
+
+    transform:  scale(1.2) skewY(5deg) rotate(0);
+  }
+
+  90% {
+    transform: skew(-9deg, -9deg);
+  }
+
+  100% {
+    transform: none;
+  }
+}
+
+.radiobox-vertigo {
+  &:checked {
+    animation: vertigo .2s ease-in;
+    animation-iteration-count: 5;
+  }
+}

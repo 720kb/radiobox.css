@@ -1,0 +1,28 @@
+
+@keyframes focus {
+
+  0% {
+    opacity: .4;
+    transform: scale(3);
+  }
+
+  10% {
+    transform: scale(2.5);
+  }
+
+  90% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: none;
+  }
+}
+
+.radiobox-focus {
+
+  &:checked {
+
+    animation: focus .25s ease-out;
+  }
+}

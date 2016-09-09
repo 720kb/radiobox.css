@@ -1,0 +1,28 @@
+@keyframes tremolo {
+
+  0% {
+
+    transform: translateY(.5px) translateX(-.5px) scale(1) skewY(1deg) skewX(-1deg);
+  }
+
+  50% {
+
+    transform: translateX(0) translateY(0) scale(1.1) skewY(0) skewX(0);
+  }
+
+  90% {
+
+    transform: translateY(-.5px) translateX(.5px) scale(1) skewY(1deg) skewX(-1deg);
+  }
+
+  100% {
+    transform: none;
+  }
+}
+
+.radiobox-tremolo {
+  &:checked {
+    animation: tremolo .065s linear;
+    animation-iteration-count: 7;
+  }
+}

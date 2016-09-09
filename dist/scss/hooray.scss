@@ -1,0 +1,19 @@
+
+@keyframes hooray {
+
+  0% {
+    opacity: .1;
+    transform: scale(5);
+  }
+
+  60% {
+    transform: none;
+  }
+}
+
+.radiobox-hooray {
+  &:checked {
+    animation: hooray .2s ease-in;
+    animation-iteration-count: 3;
+  }
+}

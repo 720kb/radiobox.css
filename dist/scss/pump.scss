@@ -1,0 +1,47 @@
+
+@keyframes pump {
+
+  0% {
+
+    transform: rotate(15deg) skewX(10deg) skewY(-20deg);
+  }
+
+  50% {
+    transform:scale(.8);
+  }
+
+  80% {
+    transform: rotate(15deg) skewX(10deg) skewY(-40deg);
+  }
+
+  100% {
+    transform: rotate(15deg) skewX(10deg) skewY(-20deg);
+  }
+}
+
+@keyframes pumpit {
+
+  0% {
+
+    transform: none;
+  }
+
+  50% {
+    transform:scale(.8);
+  }
+
+  80% {
+    transform: rotate(-15deg) skewX(-10deg) skewY(40deg);
+  }
+
+  100% {
+    transform: rotate(-15deg) skewX(-10deg) skewY(20deg);
+  }
+}
+
+.radiobox-pump {
+  &:checked {
+    animation: pump .4s cubic-bezier(0.030, 0.610, 0.170, 0.970), pumpit .4s .4s linear;
+    animation-iteration-count: 1;
+  }
+}
