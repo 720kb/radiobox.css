@@ -1,0 +1,26 @@
+/* simple, but effective! */
+
+@keyframes ping {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.1);
+  }
+
+  90% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: none;
+  }
+}
+
+.radiobox-ping {
+  &:checked {
+    animation: flash .5s cubic-bezier(0.030, 0.610, 0.170, 0.970);
+    animation-iteration-count: 1;
+  }
+}
