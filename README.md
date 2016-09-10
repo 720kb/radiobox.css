@@ -13,7 +13,7 @@ A tiny set of CSS3 animations designed for your radio inputs.
 	</p>
 	<p align="center">
 	<sub style="font-size:12px;">
-	... and for all check out <a style="font-size:12px;" href="https://github.com/720kb/checked.css">checked.css</a>
+	... and for super powers check out <a style="font-size:12px;" href="https://github.com/720kb/checked.css">checked.css</a>
 	</sub>
 </p>
 </br>
