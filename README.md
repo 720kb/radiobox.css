@@ -10,6 +10,11 @@ A tiny set of CSS3 animations designed for your radio inputs.
 	<sub style="font-size:12px;">
 	... and for checkbox inputs check out <a style="font-size:12px;" href="https://github.com/720kb/checkbox.css">checkbox.css</a>
 	</sub>
+	</p>
+	<p align="center">
+	<sub style="font-size:12px;">
+	... and for all check out <a style="font-size:12px;" href="https://github.com/720kb/checked.css">checked.css</a>
+	</sub>
 </p>
 </br>
 <p align="center" style="text-align:center">
