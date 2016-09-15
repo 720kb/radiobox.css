@@ -1,6 +1,6 @@
 {
   "name": "radiobox.css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/css/radiobox.min.css",
   "ignore": [
     "node_modules",
