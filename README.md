@@ -1,11 +1,12 @@
 <p align="center">
 <img src="http://i.imgur.com/RMT4UHE.png" width="250"/>
 </p>
+
 <p align="center" style="text-align:center">
-
-A tiny set of CSS3 animations designed for your radio inputs.
-
+<b>A tiny set of CSS3 animations designed for your radio inputs.
+</b>
 </p>
+
 <p align="center">
 	<sub style="font-size:12px;">
 	... and for checkbox inputs check out <a style="font-size:12px;" href="https://github.com/720kb/checkbox.css">checkbox.css</a>
@@ -86,10 +87,9 @@ Tremolo
 </p>
 
 <br/>
+
 <p align="center" style="text-align:center">
-
 <b>Usage</b>
-
 </p>
 
 <p align="center" style="text-align:center">
