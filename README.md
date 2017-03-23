@@ -101,20 +101,23 @@ Tremolo
 </p>
 
 <br/>
+
 <p align="center" style="text-align:center">
 <b>Browsers Support</b>
 </p>
+
 <p align="center" style="text-align:center">
 <i>Depending on:</i>
 </p>
-<p align="center" style="text-align:center">
 
+<p align="center" style="text-align:center">
     <a href="http://caniuse.com/#feat=transforms2d" target="_blank">2D Transform</a>
  </p>
+ 
  <p align="center" style="text-align:center">   
     <a href="http://caniuse.com/#feat=css-animation" target="_blank">Keyframes</a>
-
 </p>
+
 
 <br/>
 <p align="center" style="text-align:center">
