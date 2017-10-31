@@ -86,6 +86,10 @@ Focus
 Tremolo
 </p>
 
+<p align="center" style="text-align:center">
+Ping
+</p>
+
 <br/>
 
 <p align="center" style="text-align:center">
