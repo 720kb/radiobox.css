@@ -58,3 +58,51 @@ label {
   cursor: pointer;
 
 }
+
+#carbonads{
+     display: block;
+    overflow: hidden;
+    padding: 1em;
+    line-height: 1.5;
+    max-width: 340px;
+    color: darkgrey;
+    text-align: center;
+    border-radius: 5px;
+    background: #eee;
+}
+
+#carbonads span {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.carbon-img {
+  float: left;
+  margin-right: 1em;
+  border-radius:5px;
+}
+
+.carbon-img img {
+  display: block;
+}
+
+.carbon-text {
+  display: block;
+  float: left;
+  max-width: calc(100% - 130px - 1em);
+  text-align: left;
+  color:grey;
+}
+
+.carbon-poweredby {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: block;
+  font-size: .8em;
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: 1px;
+  color:grey;
+}
